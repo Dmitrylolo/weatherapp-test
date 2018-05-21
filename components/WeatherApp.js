@@ -96,7 +96,8 @@ const styles = {
 	containerStyle: {
 		flex: 1,
 		marginTop: 22,
-		paddingTop: 140
+		paddingTop: 140,
+		backgroundColor: '#FFFFFF'
 	},
 	weatherContainer: {
 		margin: 10,
