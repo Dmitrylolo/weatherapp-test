@@ -60,7 +60,7 @@ class WeatherApp extends Component {
 		if (this.state.loading) {
 			return <Spinner />;
 		}
-		return <Button onPress={() => this.onSubmit()}>Submit</Button>;
+		return <Button onPress={() => this.onSubmit()}>Get weather!</Button>;
 	}
 
 	renderError = () => {
